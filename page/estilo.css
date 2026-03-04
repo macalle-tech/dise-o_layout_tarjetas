@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.body{
+
+}
+
+/* configuraciones del menu */
+.header{
+    background-color: rgb(136, 136, 202);
+    display: flex;
+    justify-content: space-between;
+}
+
+/* configuraciones generales */
+.titulo{
+color: rgb(245, 8, 8);
+}
+
+.menu-contenedor{
+    display: flex;
+    gap: 25px;
+}
+
+.item del menu{
+    color: white
+
+}
+
+/* configuraciones del contenido */
+
+
+.card-container{
+    display: flex;
+    gap: 30px;
+}
+
+.card-item{
+
+}
+
+.card-title{
+
+}
+
+.card-content{
+
+}
+
+.card-footer{
+
+}

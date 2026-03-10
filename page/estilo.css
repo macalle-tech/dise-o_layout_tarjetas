@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -11,19 +11,20 @@
 
 /* configuraciones del menu */
 .header{
-    background-color: rgb(136, 136, 202);
+    background-color: rgb(64, 64, 243);
     display: flex;
     justify-content: space-between;
 }
 
 /* configuraciones generales */
 .titulo{
-color: rgb(245, 8, 8);
+color: white;
 }
 
 .menu-contenedor{
     display: flex;
     gap: 25px;
+    color: white;
 }
 
 .item del menu{
@@ -37,18 +38,32 @@ color: rgb(245, 8, 8);
 .card-container{
     display: flex;
     gap: 30px;
+    padding: 20px;
+    justify-content: space-between;
 }
 
 .card-item{
-
+    background-color: silver;
+    padding: 30px;
+    width: 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    border-radius: 27px;
 }
 
 .card-title{
-
+    align-self: center;
 }
 
 .card-content{
-
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-top: 1px solid rgb(64, 64, 243);
+    border-bottom: 1px solid rgb(64, 64, 243);
+    margin: 2px 0;
 }
 
 .card-footer{
